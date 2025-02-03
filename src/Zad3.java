@@ -31,7 +31,7 @@ public class Zad3 {
 
         // Racunam prosjeka
         double prosjek = (double) suma / ocjene.size();
-        System.out.println("Prosječna ocjena je: " + prosjek);
+        System.out.println("Prosjecna ocjena je: " + prosjek);
 
         scan.close();  // Zatvaram scanner
 
