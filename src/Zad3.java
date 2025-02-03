@@ -12,7 +12,7 @@ public class Zad3 {
             System.out.print("Unesi ocjenu: ");
             int ocjena = scan.nextInt();  // Unosimo ocjenu
 
-            // Ako je unesena negativna ocjena, prekidamo unos
+            // Ako je unesena nelogicna ocjena, prekidamo unos
             if (ocjena < 0 || ocjena > 5) {
                 break;
             }
