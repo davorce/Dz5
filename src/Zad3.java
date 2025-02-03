@@ -7,9 +7,7 @@ public class Zad3 {
 
         // Kreiramo ArrayList za pohranu ocjena
         ArrayList<Integer> ocjene = new ArrayList<>();
-
         System.out.println("Unesi ocjene jednu po jednu (unesi negativan broj ili vise od 5 za kraj):");
-
         while (true) {
             System.out.print("Unesi ocjenu: ");
             int ocjena = scan.nextInt();  // Unosimo ocjenu
@@ -24,6 +22,7 @@ public class Zad3 {
         }
 
         int suma = 0;
+
         // Računamo zbroj svih ocjena u ArrayList
         for (int ocjena : ocjene) {
             suma += ocjena;
@@ -32,8 +31,6 @@ public class Zad3 {
         // Racunam prosjeka
         double prosjek = (double) suma / ocjene.size();
         System.out.println("Prosjecna ocjena je: " + prosjek);
-
         scan.close();  // Zatvaram scanner
-
     }
 }
